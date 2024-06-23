@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Money Manager</title>
+    <!-- Materialize CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" rel="stylesheet">
+    <!-- Materialize JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h3 class="center-align">Personal Money Manager</h3>
+        <div class="card">
+            <div class="card-content">
+                <span class="card-title">Income</span>
+                <div class="input-field">
+                    <input id="salary" type="number">
+                    <label for="salary">Salary</label>
+                </div>
+            </div>
+        </div>
+        
+        <div class="card">
+            <div class="card-content">
+                <span class="card-title">Expenses</span>
+                <div class="input-field">
+                    <input id="loan1" type="number" value="0">
+                    <label for="loan1">Loan 1 Payment</label>
+                </div>
+                <div class="input-field">
+                    <input id="loan2" type="number" value="0">
+                    <label for="loan2">Loan 2 Payment</label>
+                </div>
+                <div class="input-field">
+                    <input id="houseLoan" type="number" value="0">
+                    <label for="houseLoan">House Loan Payment</label>
+                </div>
+                <div class="input-field">
+                    <input id="landLoan" type="number" value="0">
+                    <label for="landLoan">Land Loan Payment</label>
+                </div>
+                <div class="input-field">
+                    <input id="gasoline" type="number" value="0">
+                    <label for="gasoline">Gasoline</label>
+                </div>
+                <div class="input-field">
+                    <input id="food" type="number" value="0">
+                    <label for="food">Food</label>
+                </div>
+                <div class="input-field">
+                    <input id="utilities" type="number" value="0">
+                    <label for="utilities">Electricity and Water</label>
+                </div>
+                <div class="input-field">
+                    <input id="milk" type="number" value="0">
+                    <label for="milk">Milk for Daughter</label>
+                </div>
+                <div class="input-field">
+                    <input id="diapers" type="number" value="0">
+                    <label for="diapers">Diapers</label>
+                </div>
+                <div class="input-field">
+                    <input id="saving" type="number" value="0">
+                    <label for="saving">Saving</label>
+                </div>
+            </div>
+        </div>
+        
+        <div class="card">
+            <div class="card-content">
+                <span class="card-title">Money Balance</span>
+                <div class="input-field">
+                    <input id="balance" type="number" value="0" readonly>
+                    <label for="balance">Balance</label>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
